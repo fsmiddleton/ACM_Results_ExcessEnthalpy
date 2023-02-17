@@ -17,3 +17,4 @@ The names of the plots generated are shortened descriptions:
 * BAC = error metrics for each BAC group including the SMSE, wSMSE, AARD, and wAARD
 * Func = error metrics for each combination of functional groups including the SMSE, wSMSE, AARD, and wAARD
 * MixturesInterest = predictions for the mixtures of interest found in a set of results
+* Mixtures = predictions of all mixtures that were observed in the array. LOOCV results 
