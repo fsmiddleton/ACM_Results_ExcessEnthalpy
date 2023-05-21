@@ -10,6 +10,7 @@ The Results folder contains all results for the MCM predictions, and some result
 The way to navigate the Results folder is by using the search function from 'Go to file'. 
 There are results for all arrays completed named according to the following convention:
 * 'filling scheme'-'Plot generated'
+
 The names of the plots generated can be: 
 * ErrorMetricsPerFracObserved
 * ErrorMetricsPerNumCompounds
