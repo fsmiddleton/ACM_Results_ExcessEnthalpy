@@ -8,22 +8,37 @@ The SmallResults folder contains all results for the smallest array completed, a
 The Results folder contains all results for the MCM predictions, and some results for the 3ACM predictions. 
 
 The way to navigate the Results folder is by using the search function from 'Go to file'. 
-There are results for all arrays completed named according to the following convention:
+
+There are results for all arrays completed that show a high level of the error metrics. They are named according to the following convention:
 * 'filling scheme'-'Plot generated'
 
-The names of the plots generated can be: 
+The filling scheme can be: 
+* uni
+* tri 
+* mix
+
+The plot generated can be: 
 * ErrorMetricsPerFracObserved
 * ErrorMetricsPerNumCompounds
 * ErrorMetricsPerTemp
 
-The filling schemes used can be: 
-* uni
-* tri 
-* mix 
+For example: uniErrorMetricsperTemp
 
+There are also figures comparing the results of each filling scheme for an isothermal array. These are labelled according to the convention:
+*  'Temperature'-'r1'-'Plot generated'
 
-The MCM results are named according to the convention: 
+The plot generated can be:
+* 2Hist-FillSchemes
+* 2Hist-FillSchemes+UNIFAC
+* CompareFillMethod
+
+For example: 
+298.15-ComapreFillMethod 
+298.15K-2Hist-FillSchemes
+
+The MCM results for each isothermal array and filling scheme are named according to the convention: 
 * 'Temperature'-'filling scheme'-'r1'-'Plot generated'
+  
 The ACM results are named according to the convention:
 * 'Number of temperature slices'-'Temperature of the results'-'filling scheme'-fn3='r3'-fn1=-'r1'-'Plot generated'
 
@@ -41,4 +56,3 @@ The names of the plots generated are shortened descriptions:
 * Func = error metrics for each combination of functional groups including the SMSE, wSMSE, AARD, and wAARD
 * MixturesInterest = predictions for the mixtures of interest found in a set of results
 * Mixtures = predictions of all mixtures that were observed in the array. LOOCV results 
-* CompareFillMethod = more accurate predictions from either the uni, mix, or tri filling scheme
