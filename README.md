@@ -1,5 +1,5 @@
 # ACM_Results_ExcessEnthalpy
-Results and code from the Masters thesis 'Array completion methods for thermodynamic property estimation' by FS Middleton (2023).
+Results and code from the Masters thesis 'Array completion methods for thermodynamic data generation' by FS Middleton (2023).
 
 ## Folders present
 * The Code folder contains all code used in the project. This includes all Matlab code and the Julia code in a notebook.
