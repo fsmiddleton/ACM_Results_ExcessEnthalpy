@@ -2,7 +2,7 @@
 Results and code from the Masters thesis 'Array completion methods for thermodynamic property estimation' by FS Middleton (2023).
 
 ## Folders present
-* The Code folder contains all code used in the project. 
+* The Code folder contains all code used in the project. This includes all Matlab code and the Julia code in a notebook.
 * The SmallResults folder contains all results for the smallest array completed, a subset of the array at 298.15K. This was the toy problem for this work.
 * The Results folder contains all results for the MCM predictions, and some results for the 3ACM predictions.
 * The UNIFAC_Dortmund_preds folder contains all UNIFAC (Dortmund) predictions, using the same figures available in Results. 
